@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Josefin+Slab:ital,wght@1,100..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

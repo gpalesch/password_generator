@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-background">
+    <div class="grid grid-rows-2">
+        <div class="flex flex-col justify-end items-center justify-self-center">
+            <div>
+                <h1 class="flex justify-center items-baseline"><span class="font-semibold text-textColor font-josefin">password</span><span class="font-normal uppercase text-textColor font-italiana">Generator</span></h1>
+            </div>
+            <div>
+                <div class="bg-textColor flex items-center justify-between">
+                    <input type="text" id="passwordInput" name="password" placeholder="Password"/>
+                    <img src="images/copy_icon.png" alt="copy_icon" id="copyIcon">
+                </div>
+            </div>
+            <button type="button" id="generate" class="bg-textColor flex self-start items-center justify-center">
+                <img src="images/refresh_icon.png" alt="refresh_icon" id="refreshIcon">
+                <span>generate</span>
+            </button>
+        </div>
+        <div class="flex self-end justify-self-end">
+            <div class="flex">
+                <p><span class="font-semibold text-textColor font-josefin">made with</span><span class="font-normal text-textColor font-italiana">Love</span></p>
+                <img src="images/heart_icon.png" alt="heart_icon" id="heartIcon">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
