@@ -558,6 +558,18 @@ video {
   --tw-contain-style:  ;
 }
 
+.mb-clamp-27-60{
+  margin-bottom: clamp(27px, 8.05vw, 60px);
+}
+
+.mr-2{
+  margin-right: 0.5rem;
+}
+
+.mr-2\.5{
+  margin-right: 0.625rem;
+}
+
 .flex{
   display: flex;
 }
@@ -568,6 +580,26 @@ video {
 
 .hidden{
   display: none;
+}
+
+.h-6{
+  height: 1.5rem;
+}
+
+.h-6\.6vw{
+  height: 6.6vw;
+}
+
+.h-9{
+  height: 2.25rem;
+}
+
+.h-9\.5vw{
+  height: 9.5vw;
+}
+
+.h-full{
+  height: 100%;
 }
 
 .h-screen{
@@ -592,6 +624,10 @@ video {
 
 .w-4\/5{
   width: 80%;
+}
+
+.max-w-custom-410{
+  max-width: 410px;
 }
 
 .grid-rows-2{
@@ -642,6 +678,10 @@ video {
   border-radius: 0.25rem;
 }
 
+.border-none{
+  border-style: none;
+}
+
 .bg-background{
   --tw-bg-opacity: 1;
   background-color: rgb(38 19 19 / var(--tw-bg-opacity));
@@ -650,6 +690,23 @@ video {
 .bg-textColor{
   --tw-bg-opacity: 1;
   background-color: rgb(231 218 218 / var(--tw-bg-opacity));
+}
+
+.p-0{
+  padding: 0px;
+}
+
+.px-1{
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.pl-2{
+  padding-left: 0.5rem;
+}
+
+.pr-0{
+  padding-right: 0px;
 }
 
 .font-italiana{
@@ -665,12 +722,12 @@ video {
   line-height: 2.25rem;
 }
 
-.text-clamp-22-39{
-  font-size: clamp(22.75px, 7.15vw, 39px);
+.text-clamp-22-36{
+  font-size: clamp(22.75px, 7.15vw, 36.5px);
 }
 
-.text-clamp-31-50{
-  font-size: clamp(31.75px, 9.95vw, 50px);
+.text-clamp-31-51{
+  font-size: clamp(31.75px, 9.95vw, 51px);
 }
 
 .font-normal{
@@ -688,6 +745,11 @@ video {
 .text-textColor{
   --tw-text-opacity: 1;
   color: rgb(231 218 218 / var(--tw-text-opacity));
+}
+
+.outline-none{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 @media (min-width: 640px){

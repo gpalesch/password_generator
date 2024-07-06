@@ -7,14 +7,17 @@
 </head>
 <body class="bg-background">
     <div class="grid grid-rows-2 h-screen">
-        <div class="flex flex-col justify-end items-center justify-self-center min-h-64">
-            <div class="w-4/5">
-                <h1 class="flex justify-center items-baseline"><span class="font-semibold text-textColor font-josefin text-clamp-22-39">password</span><span class="font-normal uppercase text-textColor font-italiana text-clamp-31-50">Generator</span></h1>
+        <div class="w-4/5 flex flex-col justify-end items-center justify-self-center min-h-64">
+            <div class="mb-clamp-27-60">
+                <h1 class="flex justify-center items-baseline">
+                    <span class="font-semibold text-textColor font-josefin text-clamp-22-36">password</span>
+                    <span class="font-normal uppercase text-textColor font-italiana text-clamp-31-51">Generator</span>
+                </h1>
             </div>
-            <div class="w-4/5">
-                <div class="bg-textColor flex items-center justify-between rounded">
-                    <input type="text" id="passwordInput" name="password" placeholder="Password" class="w-3/4"/>
-                    <img src="images/copy_icon.png" alt="copy_icon" id="copyIcon" class="w-1/12">
+            <div class="max-w-custom-410">
+                <div class="bg-textColor flex items-center justify-between h-9.5vw rounded px-1 pr-0 pl-2">
+                    <input type="text" id="passwordInput" name="password" placeholder="Password" class="h-full w-3/4 bg-textColor border-none outline-none p-0 font-josefin font-semibold text-clamp-22-36"/>
+                    <img src="images/copy_icon.png" alt="copy_icon" id="copyIcon" class="h-6.6vw mr-2.5">
                 </div>
             </div>
             <button type="button" id="generate" class="bg-textColor flex self-center items-center justify-center w-1/6">
