@@ -24,6 +24,7 @@ module.exports = {
         '9.5vw': '9.5vw',
         '14vw': '14vw',
         'clamp-14-24': 'clamp(14px, 4.4vw, 24.8px)',
+        'clamp-8-14': 'clamp(8px, 2.6vw, 14px)',
       },
       width: {
         '14.85vw': '14.85vw',
@@ -36,6 +37,7 @@ module.exports = {
         'clamp-10-20': 'clamp(10px, 3.8vw, 20px)',
         'clamp-4-6': 'clamp(4px, 1.15vw, 6px)',
         'clamp-11-30': 'clamp(11.5px, 4.75vw, 30px)',
+        'clamp-11-25': 'clamp(11.5px, 4.75vw, 25px)',
       },
     },
   },

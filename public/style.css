@@ -558,6 +558,14 @@ video {
   --tw-contain-style:  ;
 }
 
+.-mr-clamp-4-6{
+  margin-right: calc(clamp(4px, 1.15vw, 6px) * -1);
+}
+
+.mb-clamp-10-20{
+  margin-bottom: clamp(10px, 3.8vw, 20px);
+}
+
 .mb-clamp-11-30{
   margin-bottom: clamp(11.5px, 4.75vw, 30px);
 }
@@ -572,6 +580,14 @@ video {
 
 .mr-2\.5{
   margin-right: 0.625rem;
+}
+
+.mr-clamp-11-25{
+  margin-right: clamp(11.5px, 4.75vw, 25px);
+}
+
+.mr-clamp-4-6{
+  margin-right: clamp(4px, 1.15vw, 6px);
 }
 
 .flex{
@@ -606,6 +622,10 @@ video {
   height: clamp(14px, 4.4vw, 24.8px);
 }
 
+.h-clamp-8-14{
+  height: clamp(8px, 2.6vw, 14px);
+}
+
 .h-full{
   height: 100%;
 }
@@ -616,10 +636,6 @@ video {
 
 .min-h-64{
   min-height: 16rem;
-}
-
-.w-1\/12{
-  width: 8.333333%;
 }
 
 .w-14{
@@ -636,6 +652,10 @@ video {
 
 .w-4\/5{
   width: 80%;
+}
+
+.min-w-80{
+  min-width: 20rem;
 }
 
 .max-w-custom-410{
