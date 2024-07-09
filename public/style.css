@@ -558,10 +558,6 @@ video {
   --tw-contain-style:  ;
 }
 
-.-mr-clamp-4-6{
-  margin-right: calc(clamp(4px, 1.15vw, 6px) * -1);
-}
-
 .mb-clamp-10-20{
   margin-bottom: clamp(10px, 3.8vw, 20px);
 }
@@ -756,6 +752,14 @@ video {
 .text-3xl{
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-clamp-10-16{
+  font-size: clamp(10.5px, 3.3vw, 16px);
+}
+
+.text-clamp-12-20{
+  font-size: clamp(12px, 3.8vw, 20px);
 }
 
 .text-clamp-22-36{
