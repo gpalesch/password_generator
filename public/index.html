@@ -7,31 +7,31 @@
 </head>
 <body class="bg-background min-w-80">
     <div class="grid grid-rows-2 h-screen">
-        <div class="w-4/5 max-w-custom-410 flex flex-col justify-end items-center justify-self-center min-h-64">
+        <div class="w-4/5 max-w-custom-410 sm:max-w-none flex flex-col justify-end items-center justify-self-center min-h-64">
             <div class="mb-clamp-27-60">
                 <h1 class="flex justify-center items-baseline">
-                    <span class="font-semibold text-textColor font-josefin text-clamp-22-36">password</span>
-                    <span class="font-normal uppercase text-textColor font-italiana text-clamp-31-51">Generator</span>
+                    <span class="font-semibold text-textColor font-josefin text-clamp-22-36 sm:text-38 md:text-42">password</span>
+                    <span class="font-normal uppercase text-textColor font-italiana text-clamp-31-51 sm:text-52 md:text-6xl">Generator</span>
                 </h1>
             </div>
-            <div class="max-w-custom-410 mb-clamp-11-30">
-                <div class="bg-textColor flex items-center justify-between h-9.5vw rounded py-1 pr-0 pl-2 ">
-                    <input type="text" id="passwordInput" name="password" placeholder="Password" class="h-full w-3/4 bg-textColor border-none outline-none font-josefin font-semibold text-clamp-22-36 pt-1"/>
-                    <img src="images/copy_icon.png" alt="copy_icon" id="copyIcon" class="h-6vw mr-2.5 cursor-pointer">
+            <div class="max-w-custom-410 sm:max-w-none md:max-w-2xl sm:w-full mb-clamp-11-30 sm:mb-9">
+                <div class="bg-textColor flex items-center justify-between h-9.5vw md:h-16 rounded py-1 pr-0 pl-2 ">
+                    <input type="text" id="passwordInput" name="password" placeholder="Password" class="h-full w-3/4 bg-textColor border-none outline-none font-josefin font-semibold text-clamp-22-36 sm:text-40 lg:text-5xl pt-1"/>
+                    <img src="images/copy_icon.png" alt="copy_icon" id="copyIcon" class="h-6vw md:h-12 mr-2.5 cursor-pointer">
                 </div>
             </div>
-            <button type="button" id="generate" class="bg-textColor w-14.85vw h-8vw flex self-start items-center justify-center cursor-pointer rounded">
-                <img src="images/refresh_icon.png" alt="refresh_icon" id="refreshIcon" class="h-clamp-14-24">
-                <span class="hidden sm:inline font-josefin text-3xl font-semibold">generate</span>
+            <button type="button" id="generate" class="bg-textColor w-14.85vw sm:w-48 md:w-56 h-8vw sm:h-custom-51 flex self-start sm:self-center items-center justify-center cursor-pointer rounded">
+                <img src="images/refresh_icon.png" alt="refresh_icon" id="refreshIcon" class="h-clamp-14-24 md:h-7">
+                <span class="hidden sm:inline sm:font-josefin sm:text-3xl md:text-4xl sm:font-bold sm:ml-3.5">generate</span>
             </button>
         </div>
         <div class="flex self-end justify-self-end">
             <div class="flex justify-end items-baseline">
                 <p class="text-textColor mb-clamp-10-20 mr-clamp-4-6">
-                    <span class="font-semibold font-josefin text-clamp-10-16">made with</span>
-                    <span class="font-normal font-italiana text-clamp-12-20">Love</span>
+                    <span class="font-semibold font-josefin text-clamp-10-16 md:text-lg">made with</span>
+                    <span class="font-normal font-italiana text-clamp-12-20 md:text-2xl">Love</span>
                 </p>
-                <img src="images/heart_icon.png" alt="heart_icon" id="heartIcon" class="h-clamp-8-14 mr-clamp-11-25">
+                <img src="images/heart_icon.png" alt="heart_icon" id="heartIcon" class="h-clamp-8-14 md:h-4 mr-clamp-11-25">
             </div>
         </div>
     </div>

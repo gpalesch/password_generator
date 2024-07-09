@@ -749,11 +749,6 @@ video {
   font-family: Josefin Slab, serif;
 }
 
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
 .text-clamp-10-16{
   font-size: clamp(10.5px, 3.3vw, 16px);
 }
@@ -793,7 +788,121 @@ video {
 }
 
 @media (min-width: 640px){
+  .sm\:mb-9{
+    margin-bottom: 2.25rem;
+  }
+
+  .sm\:ml-3{
+    margin-left: 0.75rem;
+  }
+
+  .sm\:ml-3\.5{
+    margin-left: 0.875rem;
+  }
+
   .sm\:inline{
     display: inline;
+  }
+
+  .sm\:h-custom-51{
+    height: 51px;
+  }
+
+  .sm\:w-48{
+    width: 12rem;
+  }
+
+  .sm\:w-full{
+    width: 100%;
+  }
+
+  .sm\:max-w-none{
+    max-width: none;
+  }
+
+  .sm\:self-center{
+    align-self: center;
+  }
+
+  .sm\:font-josefin{
+    font-family: Josefin Slab, serif;
+  }
+
+  .sm\:text-38{
+    font-size: 38px;
+  }
+
+  .sm\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .sm\:text-40{
+    font-size: 40px;
+  }
+
+  .sm\:text-52{
+    font-size: 52px;
+  }
+
+  .sm\:font-bold{
+    font-weight: 700;
+  }
+}
+
+@media (min-width: 768px){
+  .md\:h-12{
+    height: 3rem;
+  }
+
+  .md\:h-16{
+    height: 4rem;
+  }
+
+  .md\:h-4{
+    height: 1rem;
+  }
+
+  .md\:h-7{
+    height: 1.75rem;
+  }
+
+  .md\:w-56{
+    width: 14rem;
+  }
+
+  .md\:max-w-2xl{
+    max-width: 42rem;
+  }
+
+  .md\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .md\:text-42{
+    font-size: 42px;
+  }
+
+  .md\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .md\:text-6xl{
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .md\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 1024px){
+  .lg\:text-5xl{
+    font-size: 3rem;
+    line-height: 1;
   }
 }
