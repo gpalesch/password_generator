@@ -630,6 +630,10 @@ video {
   height: 100vh;
 }
 
+.max-h-11{
+  max-height: 2.75rem;
+}
+
 .min-h-64{
   min-height: 16rem;
 }
@@ -808,6 +812,14 @@ video {
     height: 51px;
   }
 
+  .sm\:h-16{
+    height: 4rem;
+  }
+
+  .sm\:h-7{
+    height: 1.75rem;
+  }
+
   .sm\:w-48{
     width: 12rem;
   }
@@ -867,8 +879,20 @@ video {
     height: 1.75rem;
   }
 
+  .md\:h-10{
+    height: 2.5rem;
+  }
+
+  .md\:h-11{
+    height: 2.75rem;
+  }
+
   .md\:w-56{
     width: 14rem;
+  }
+
+  .md\:w-52{
+    width: 13rem;
   }
 
   .md\:max-w-2xl{
